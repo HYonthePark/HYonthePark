@@ -13,7 +13,7 @@
 
 | 프로젝트 | 내용 | 핵심 기술 |
 |---|---|---|
-| [**A4B — AI 에이전트 업무 자동화**](https://github.com/20260528-skn-family-ai-33/SKN33-Final-5Team) (팀 6명, 진행 중) | 자연어 업무 설명을 워크플로우로 바꿔 실행하는 플랫폼. **사용자 요청 검증·되묻기 판정과 도구 확장 연결을 담당**했고 회귀 테스트를 작성 | Deep Agents · LangGraph · Ollama(Qwen3) · Docker |
+| [**A4B — AI 에이전트 업무 자동화**](https://github.com/20260528-skn-family-ai-33/SKN33-Final-5Team) (팀 6명, 진행 중) | 자연어 업무 설명을 워크플로우로 바꿔 실행하는 플랫폼. **사용자 요청 검증·되묻기 판정과 도구 확장 연결을 담당**했고 회귀 테스트를 작성. 이어서 **업무 설계·도구 연결 정확도를 높이기 위한 sLLM(Qwen) 파인튜닝을 맡을 예정** | Deep Agents · LangGraph · Ollama(Qwen3) · Docker · LoRA(예정) |
 | [**EGFR Evidence Lab**](https://github.com/egfr-evidence-lab/egfr-evidence-lab) (개인) | 공개 데이터 26,600건을 감사·정제하고 모델 예측을 어디까지 믿을 수 있는지 검증. LLM 에이전트의 도구 사용 평가, 추론 API의 클라우드 배포까지 진행 | scikit-learn · Chemprop · FastAPI · Docker · Cloud Run · OpenAI API |
 | [**LabelBudget**](https://github.com/LabelBudget/LabelBudget-Main) (개인) | GNN(D-MPNN)과 자기지도 사전학습 2종을 PyTorch로 직접 구현해 공식 구현과 출력이 비트 단위로 일치함을 검증. 라벨 수별 효과를 시드 10개로 통계 비교하고 웹 앱으로 공개 | PyTorch · LightGBM · Streamlit · pytest |
 
