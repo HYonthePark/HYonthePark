@@ -13,7 +13,7 @@
 
 | 프로젝트 | 내용 | 핵심 기술 |
 |---|---|---|
-| [**A4B — AI 에이전트 업무 자동화**](https://github.com/20260528-skn-family-ai-33/SKN33-Final-5Team) (팀 6명, 진행 중) | 자연어 업무 설명을 워크플로우로 바꿔 실행하는 플랫폼. **LLM의 사용자 요청 검증·되묻기 판정과 도구 확장 연결을 담당**했고 회귀 테스트를 작성. 이어서 **업무 설계·도구 연결 정확도를 높이기 위한 sLLM(Qwen) 파인튜닝 작업** | Deep Agents · LangGraph · Ollama(Qwen3) · Docker · LoRA(예정) |
+| [**A4B — AI 에이전트 업무 자동화**](https://github.com/20260528-skn-family-ai-33/SKN33-Final-5Team) (팀 5명, 진행 중) | 자연어 업무 설명을 워크플로우로 바꿔 실행하는 플랫폼. **LLM의 사용자 요청 검증·되묻기 판정과 도구 확장 연결을 담당**했고 회귀 테스트를 작성. 이어서 **업무 설계·도구 연결 정확도를 높이기 위한 sLLM(Qwen) 파인튜닝 작업** | Deep Agents · LangGraph · Ollama(Qwen3) · Docker · LoRA(예정) |
 | [**Paper Scholar — 논문 RAG 챗봇**](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN33-4th-2Team) (3·4차 팀 프로젝트, 5명, **팀장**) | arXiv·PDF 논문 검색·요약·번역·근거 기반 Q&A. **3차**: [RAG 챗봇](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN33-3rd-2Team)의 **LangGraph 오케스트레이션·Supervisor 적응형 라우팅을 구현**하고 LangSmith·RAGAS·DeepEval 기반 400건 평가 체계 구축. **4차**: 같은 엔진을 Django·React 웹 서비스로 확장하며 Supervisor 웹 연동, 요약 우선 파이프라인 전환, 평가 코퍼스 200건 구축, Docker 배포 오류 수정 | LangGraph · LangChain · RAG · LangSmith · RAGAS · Django · React · Docker |
 | [**EGFR Evidence Lab**](https://github.com/egfr-evidence-lab/egfr-evidence-lab) (개인) | 공개 데이터 26,600건을 감사·정제하고 모델 예측을 어디까지 믿을 수 있는지 검증. LLM 에이전트의 도구 사용 평가, 추론 API의 클라우드 배포까지 진행 | scikit-learn · Chemprop · FastAPI · Docker · Cloud Run · OpenAI API |
 | [**LabelBudget**](https://github.com/LabelBudget/LabelBudget-Main) (개인) | GNN(D-MPNN)과 자기지도 사전학습 2종을 PyTorch로 직접 구현해 공식 구현과 출력이 비트 단위로 일치함을 검증. 라벨 수별 효과를 시드 10개로 통계 비교하고 웹 앱으로 공개 | PyTorch · LightGBM · Streamlit · pytest |
